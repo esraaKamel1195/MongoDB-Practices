@@ -1,4 +1,4 @@
-use EcommerceDB
+use EcommerceDB;
 
 
 
@@ -574,7 +574,7 @@ db.product.insert([
 
         price:26,
 
-        details:"World’s best game! World's best players",
+        details:"Worldï¿½s best game! World's best players",
 
         weight:27,
 
@@ -656,7 +656,7 @@ db.product.insert({_id:47,name:"Bird print t-shirt",brand:"Diesel",model:2010,co
 
 
 
-db.product.insert({_id:48,name:"Big Sky Warm Winter Jacket",brand:"Högl",model:2011,color:"orange",price:850,
+db.product.insert({_id:48,name:"Big Sky Warm Winter Jacket",brand:"Hï¿½gl",model:2011,color:"orange",price:850,
 
     details:"beautiful hat",weight:25,date:new Date(),product_comments:[46,43]});
 
@@ -1364,7 +1364,7 @@ db.comment.insert([
 
      _id:28,
 
-     stringComment:"I’m love these!",
+     stringComment:"Iï¿½m love these!",
 
      date:new Date()
 
